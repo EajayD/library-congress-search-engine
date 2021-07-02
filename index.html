@@ -18,20 +18,20 @@
                     <label for="exampleInputEmail1" class="form-label">Search</label>
                     <input type="text" class="form-control" id="search-input-text" aria-describedby="emailHelp">
                     </div>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                        Select a Format...
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item" href="#">maps</a></li>
-                        <li><a class="dropdown-item" href="#">audio</a></li>
-                        <li><a class="dropdown-item" href="#">photos</a></li>
-                        <li><a class="dropdown-item" href="#">manuscripts</a></li>
-                        <li><a class="dropdown-item" href="#">film & videos</a></li>
-                        <li><a class="dropdown-item" href="#">notated music</a></li>
-                        <li><a class="dropdown-item" href="#">websites</a></li>
-                        </ul>
-                    </div>
+
+                    <div class="col-auto">
+                        <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                        <select class="form-select" id="autoSizingSelect">
+                          <option selected>Choose...</option>
+                          <option value="Maps">Maps</option>
+                          <option value="Audio">Audio</option>
+                          <option value="Photos">Photos</option>
+                          <option value="Manuscripts">Manuscripts</option>
+                          <option value="Film">Film & Videos</option>
+                          <option value="Music"> Notated Music</option>
+                          <option value="Websites">Websites</option>
+                        </select>
+                      </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
