@@ -14,7 +14,8 @@ function getSearchResults(searchQuery, format) {
     .then(function (data) {
         // TODO: Add result to UI
         console.log(data);
-    });    
+    });
+    document.location.replace('search.html')    
 }
 
 // A test
